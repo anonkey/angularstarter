@@ -1,6 +1,7 @@
 ion-view.login(title="Login")
   div.login-block
     h1 Login
+    h3 {{ '01/08/2016' | date:'dddd DD MMMM YYYY HH:mm:ss' }}
     form.login-form(ng-submit="login(user)")
       input.login-input(
         placeholder="Login"
