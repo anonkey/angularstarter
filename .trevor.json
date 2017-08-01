@@ -9,7 +9,7 @@
       "entrypoint": "index.html",
       "flow": [
         {"cmd": "npm install"},
-        {"cmd": "node_module/.bin/bower install"},
+        {"cmd": "node_module/.bin/bower install --allow-root"},
         {"cmd": "node_module/.bin/gulp build"}
       ]
     },
@@ -20,7 +20,7 @@
       "entrypoint": "index.html",
       "flow": [
         {"cmd": "npm install"},
-        {"cmd": "node_module/.bin/bower install"},
+        {"cmd": "node_module/.bin/bower install --allow-root"},
         {"cmd": "node_module/.bin/gulp build"}
       ]
     }
