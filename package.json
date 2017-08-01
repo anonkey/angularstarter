@@ -1,0 +1,52 @@
+{
+		"name": "theo",
+		"version": "1.0.0",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"main": "index.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/GuillaumeSarfati/theo.git"
+		},
+		"author": "",
+		"license": "ISC",
+		"bugs": {
+				"url": "https://github.com/GuillaumeSarfati/theo/issues"
+		},
+		"homepage": "https://github.com/GuillaumeSarfati/theo#readme",
+		"devDependencies": {
+				"bower": "^1.3.3",
+				"coffee-script": "^1.11.1",
+				"gulp": "^3.9.1",
+				"gulp-angular-templatecache": "^1.6.0",
+				"gulp-autoprefixer": "^2.1.0",
+				"gulp-bower-files": "^0.2.7",
+				"gulp-coffee": "^2.2.0",
+				"gulp-concat": "^2.4.1",
+				"gulp-consolidate": "^0.1.2",
+				"gulp-filter": "~1.0.2",
+				"gulp-flatten": "0.0.4",
+				"gulp-iconfont": "^5.0.1",
+				"gulp-iconfont-css": "^2.1.0",
+				"gulp-inject-string": "^1.1.0",
+				"gulp-jade": "^0.9.0",
+				"gulp-less": "^1.3.6",
+				"gulp-load-plugins": "^0.10.0",
+				"gulp-loopback-sdk-angular": "^0.1.3",
+				"gulp-minify-css": "^0.3.0",
+				"gulp-notify": "^2.2.0",
+				"gulp-plumber": "^1.0.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sass": "^1.3.3",
+				"gulp-util": "^2.2.14",
+				"lodash": "^3.10.1",
+				"main-bower-files": "^2.4.0",
+				"shelljs": "^0.3.0"
+		},
+		"dependencies": {
+				"ionic": "^1.7.16"
+		}
+}

@@ -3,18 +3,26 @@
   "workdir": "/var/www",
   "hooks": {
     "deployment": {
-      "root":"src",
+      "root":"www",
       "domain": "faste.ai",
       "subdomain": "theo",
       "entrypoint": "index.html",
-      "flow": []
+      "flow": [
+        {"cmd": "npm install"},
+        {"cmd": "node_module/.bin/bower install"},
+        {"cmd": "node_module/.bin/gulp build"}
+      ]
     },
     "pull_request": {
-      "root":"src",
+      "root":"www",
       "domain": "faste.ai",
       "subdomain": "$sha",
       "entrypoint": "index.html",
-      "flow": []
+      "flow": [
+        {"cmd": "npm install"},
+        {"cmd": "node_module/.bin/bower install"},
+        {"cmd": "node_module/.bin/gulp build"}
+      ]
     }
   }
 }

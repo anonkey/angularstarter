@@ -1,0 +1,10 @@
+{
+  "name": "theo",
+  "app_id": "theo",
+  "watchPatterns": [
+    "www/**/*"
+  ],
+  "gulpStartupTasks": [
+    "watch"
+  ]
+}
