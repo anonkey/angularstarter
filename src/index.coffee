@@ -4,7 +4,8 @@ angular.module 'starter', [
   'starter.login'
 ]
 
-.config ($urlRouterProvider) ->
+.config ($urlRouterProvider, $httpProvider) ->
+  $httpProvider.interceptors.push 'loader'
   $urlRouterProvider.otherwise '/login'
 
 .run ->
