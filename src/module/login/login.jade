@@ -1,0 +1,15 @@
+ion-view.login(title="Login")
+  div.login-block
+    h1 Login
+    form.login-form(ng-submit="login(user)")
+      input.login-input(
+        placeholder="Login"
+        ng-model="user.username"
+        type="text"
+      )
+      input.login-input(
+        placeholder="Password"
+        type="password"
+        ng-model="user.password"
+      )
+      button.login-btn(type="submit") Login
