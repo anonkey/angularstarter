@@ -1,0 +1,20 @@
+{
+  "image": "gsarfati/node",
+  "workdir": "/var/www",
+  "hooks": {
+    "deployment": {
+      "root":"src",
+      "domain": "faste.ai",
+      "subdomain": "theo",
+      "entrypoint": "index.html",
+      "flow": []
+    },
+    "pull_request": {
+      "root":"src",
+      "domain": "faste.ai",
+      "subdomain": "$sha",
+      "entrypoint": "index.html",
+      "flow": []
+    }
+  }
+}
