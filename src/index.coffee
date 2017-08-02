@@ -1,7 +1,8 @@
 apiUrl = 'http://developers.faste.ai/api/'
 angular.module 'starter', [
   'ionic',
-  'starter.login'
+  'starter.login',
+  'starter.home'
 ]
 
 .config ($urlRouterProvider, $httpProvider) ->

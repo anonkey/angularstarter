@@ -1,0 +1,21 @@
+h1 Control your home
+div.items-list
+  div.item(ng-repeat="item in connectedItems")
+    h5.item-name {{item.name}}
+    input.on-off-checkbox(
+      type="checkbox"
+      ng-model="item.isOn"
+      )
+    input(
+      type="range"
+      min="0"
+      max="255"
+      ng-model="item.digitalValue"
+      )
+    input(
+      type="number"
+      min="0"
+      max="255"
+      ng-model="item.digitalValue"
+      )
+  
